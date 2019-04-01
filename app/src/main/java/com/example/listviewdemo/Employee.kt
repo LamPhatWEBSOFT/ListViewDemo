@@ -1,7 +1,7 @@
 package com.example.listviewdemo
 
 data class Employee(
-    val id: Int,
-    val name: String,
+    var id: Int,
+    var name: String,
     val role: String
 )
